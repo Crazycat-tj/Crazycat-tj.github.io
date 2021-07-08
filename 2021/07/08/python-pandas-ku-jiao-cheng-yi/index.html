@@ -467,7 +467,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3k
+                    3.1k
                 </div>
                 
 
@@ -498,7 +498,11 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>pandas库是python中最流行的库之一，常用于数据处理与分析，可以读取数据文件，生成数据对应数据结构。</p>
-<h3 id="使用pandas"><a href="#使用pandas" class="headerlink" title="使用pandas"></a>使用pandas</h3><p>为了使用pandas库，我们可以使用以下命令引用pandas库。</p>
+<h3 id="使用pandas"><a href="#使用pandas" class="headerlink" title="使用pandas"></a>使用pandas</h3><p>pandas库是第三方库，没有安装的小伙伴可能需要先安装pandas库。</p>
+<p>推荐使用pip安装：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">pip install pandas<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>安装完毕后，为了使用pandas库，我们可以使用以下命令引用pandas库。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <h3 id="生成数据"><a href="#生成数据" class="headerlink" title="生成数据"></a>生成数据</h3><p>在pandas中，最核心的命令有两个：DataFrame与Series。</p>
@@ -830,7 +834,7 @@ Name: 0, Length: 13, dtype: object<span aria-hidden="true" class="line-numbers-r
 
 <p><strong>注意</strong>：loc和iloc都是行首先，列第二。 这与我们在Python原生的索引中所做的相反，它是列首先，行第二。</p>
 <p>这意味着它更容易检索行，并略微更难获取检索列。但也不是不能检索列，参考下面的代码：</p>
-<pre class="line-numbers language-none"><code class="language-none">review.iloc[:, 0]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">review.iloc[:, 0]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">0            Italy
 1         Portugal
@@ -1643,7 +1647,7 @@ Name: index_backwards, Length: 129971, dtype: int64<span aria-hidden="true" clas
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">3k</span>
+                        class="white-color">3.1k</span>
             
             
             
