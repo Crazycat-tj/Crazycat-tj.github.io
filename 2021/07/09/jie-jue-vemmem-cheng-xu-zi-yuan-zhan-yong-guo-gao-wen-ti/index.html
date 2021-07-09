@@ -501,12 +501,11 @@
 <ol>
 <li>按下Windows + R 键，输入 <code>%UserProfile%</code> 后点击确定进入用户文件夹</li>
 </ol>
-<img src="C:\Users\Marsrabbit\AppData\Roaming\Typora\typora-user-images\image-20210709085016437.png" alt="image-20210709085016437" style="zoom:50%;">
-
+<p><img src="/images/20210709101409.png"></p>
 <ol start="2">
 <li>在用户文件夹内新建 <code>.wslconfig</code>文件(新建txt文件并改名为.wslconfig），然后用编辑器打开该文件(推荐使用Notepad++)</li>
 </ol>
-<img src="C:\Users\Marsrabbit\AppData\Roaming\Typora\typora-user-images\image-20210709085846065.png" alt="image-20210709085846065" style="zoom: 33%;">
+<img src="https://i.bmp.ovh/imgs/2021/07/1c5c487abaf0ee8c.png" style="zoom:33%;">
 
 <ol start="3">
 <li>将以下内容写入文件，其中<code>memory</code>为系统内存上限，这里我设置了最大为2GB，您可以根据自身电脑配置进行设置。</li>
@@ -519,7 +518,7 @@ localhostForwarding=true<span aria-hidden="true" class="line-numbers-rows"><span
 <ol start="4">
 <li>设置完毕后，再次按下<code>win+R</code>并输入cmd命令提示符，打开命令行，输入<code> wsl --shutdown</code> 命令来关闭当前的子系统。</li>
 </ol>
-<img src="C:\Users\Marsrabbit\AppData\Roaming\Typora\typora-user-images\image-20210709090310361.png" alt="image-20210709090310361" style="zoom:25%;">
+<img src="https://i.bmp.ovh/imgs/2021/07/655b22a512ff89bb.png" style="zoom:25%;">
 
 <ol start="4">
 <li>再次打开资源管理器，您会发现此时vmmem进程已经消失啦~</li>
